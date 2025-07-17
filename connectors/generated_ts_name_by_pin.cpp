@@ -6,10 +6,54 @@
 // see comments at declaration in pin_repository.h
 const char * getBoardSpecificPinName(brain_pin_e brainPin) {
 	switch(brainPin) {
-		case Gpio::B14: return "B14 Output";
-		case Gpio::E2: return "VR/Hall 1 (E2)";
-		case Gpio::E3: return "VR/Hall 2 (E3)";
-		case Gpio::E4: return "VR/Hall 3 (E4)";
+		case Gpio::B11: return "Idle1 (PB11)";
+		case Gpio::B9: return "Fuel Pump (PB9)";
+		case Gpio::C13: return "Tach (PC13)";
+		case Gpio::C6: return "Hall2 (PC6)";
+		case Gpio::C7: return "VSS2 VR (PC7)";
+		case Gpio::D10: return "Ignition 3 (PD10)";
+		case Gpio::D11: return "Ignition 4 (PD11)";
+		case Gpio::D3: return "VVT1 (PD3)";
+		case Gpio::D4: return "VVT2 (PD4)";
+		case Gpio::D5: return "USART-TX (PD5)";
+		case Gpio::D6: return "USART-RX (PD6)";
+		case Gpio::D7: return "Spare2 (PD7)";
+		case Gpio::D8: return "Ignition 1 (PD8)";
+		case Gpio::D9: return "Ignition 2 (PD9)";
+		case Gpio::E0: return "Crank VR (PE0)";
+		case Gpio::E1: return "Cam VR (PE1)";
+		case Gpio::E10: return "Injector 4 (PE10)";
+		case Gpio::E11: return "Injector 5 (PE11)";
+		case Gpio::E12: return "Injector 6 (PE12)";
+		case Gpio::E13: return "Injector 7 (PE13)";
+		case Gpio::E14: return "Injector 8 (PD13)";
+		case Gpio::E15: return "VSS1 VR (PE15)";
+		case Gpio::E2: return "Spare3 (PE2)";
+		case Gpio::E3: return "Idle2 (PE3)";
+		case Gpio::E5: return "Spare1 (PE5)";
+		case Gpio::E6: return "Fan (PE6)";
+		case Gpio::E7: return "Injector 1 (PE7)";
+		case Gpio::E8: return "Injector 2 (PE8)";
+		case Gpio::E9: return "Injector 3 (PE9)";
+		case Gpio::F0: return "Ignition 5 (PF0)";
+		case Gpio::F1: return "Ignition 6 (PF1)";
+		case Gpio::F10: return "Boost (PF10)";
+		case Gpio::F2: return "Ignition 7 (PF2)";
+		case Gpio::F3: return "Ignition 8 (PF3)";
+		case Gpio::G10: return "High2 (PG10)";
+		case Gpio::G11: return "High3 (PG11)";
+		case Gpio::G12: return "High4 (PG12)";
+		case Gpio::G13: return "ETB_DIS/StepDir (PG13)";
+		case Gpio::G14: return "ETB PWM (PG14)";
+		case Gpio::G15: return "ETB_DIR/StepStep (PG15)";
+		case Gpio::G2: return "Clutch (G2)";
+		case Gpio::G3: return "FlexFuel (G3)";
+		case Gpio::G4: return "Digital1 (PG4)";
+		case Gpio::G5: return "Digital2 (PG5)";
+		case Gpio::G6: return "Digital3 (PG6)";
+		case Gpio::G7: return "Digital4 (PG7)";
+		case Gpio::G8: return "Hall1 (PG8)";
+		case Gpio::G9: return "High1 (PG9)";
 		default: return nullptr;
 	}
 	return nullptr;
