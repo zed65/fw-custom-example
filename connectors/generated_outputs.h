@@ -4,6 +4,76 @@
 #pragma once
 
 Gpio GENERATED_OUTPUTS = {
-	Gpio::B14, // B14 Output
-// "B14 Output",
+	Gpio::D8, // Ignition 1 (D8)
+	Gpio::D9, // Ignition 2 (D9)
+	Gpio::D10, // Ignition 3 (D10)
+	Gpio::D11, // Ignition 4 (D11)
+	Gpio::F0, // Ignition 5 (F0)
+	Gpio::F1, // Ignition 6 (F1)
+	Gpio::F2, // Ignition 7 (F2)
+	Gpio::F3, // Ignition 8 (F3)
+	Gpio::G14, // ETB PWM (G14)
+	Gpio::G13, // ETB_DIS/StepDir (G13)
+	Gpio::G15, // ETB_DIR/StepStep (G15)
+	Gpio::E7, // Injector 1 (E7)
+	Gpio::E8, // Injector 2 (E8)
+	Gpio::E9, // Injector 3 (E9)
+	Gpio::E10, // Injector 4 (E10)
+	Gpio::E11, // Injector 5 (E11)
+	Gpio::E12, // Injector 6 (E12)
+	Gpio::E13, // Injector 7 (E13)
+	Gpio::E14, // Injector 8 (D13)
+	Gpio::B9, // Fuel Pump (B9)
+	Gpio::E5, // Spare 1 (E5)
+	Gpio::D7, // Spare 2 (D7)
+	Gpio::E2, // Spare 3 (E2)
+	Gpio::C13, // Tach (C13)
+	Gpio::F10, // Boost (F10)
+	Gpio::D3, // VVT 1 (D3)
+	Gpio::D4, // VVT 2 (D4)
+	Gpio::E6, // Fan (E6)
+	Gpio::B11, // Idle 1 (B11)
+	Gpio::E3, // Idle 2 (E3)
+	Gpio::D5, // USART-TX (D5)
+	Gpio::D6, // USART-RX (D6)
+	Gpio::G9, // High 1 (G9)
+	Gpio::G10, // High 2 (G10)
+	Gpio::G11, // High 3 (G11)
+	Gpio::G12, // High 4 (G12)
+// "Ignition 1 (D8)",
+// "Ignition 2 (D9)",
+// "Ignition 3 (D10)",
+// "Ignition 4 (D11)",
+// "Ignition 5 (F0)",
+// "Ignition 6 (F1)",
+// "Ignition 7 (F2)",
+// "Ignition 8 (F3)",
+// "ETB PWM (G14)",
+// "ETB_DIS/StepDir (G13)",
+// "ETB_DIR/StepStep (G15)",
+// "Injector 1 (E7)",
+// "Injector 2 (E8)",
+// "Injector 3 (E9)",
+// "Injector 4 (E10)",
+// "Injector 5 (E11)",
+// "Injector 6 (E12)",
+// "Injector 7 (E13)",
+// "Injector 8 (D13)",
+// "Fuel Pump (B9)",
+// "Spare 1 (E5)",
+// "Spare 2 (D7)",
+// "Spare 3 (E2)",
+// "Tach (C13)",
+// "Boost (F10)",
+// "VVT 1 (D3)",
+// "VVT 2 (D4)",
+// "Fan (E6)",
+// "Idle 1 (B11)",
+// "Idle 2 (E3)",
+// "USART-TX (D5)",
+// "USART-RX (D6)",
+// "High 1 (G9)",
+// "High 2 (G10)",
+// "High 3 (G11)",
+// "High 4 (G12)",
 }
