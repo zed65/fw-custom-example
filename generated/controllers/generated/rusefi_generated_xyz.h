@@ -58,8 +58,8 @@
 #define adc_channel_e_EFI_ADC_ERROR 50
 #define adc_channel_e_EFI_ADC_NONE 0
 #define adc_channel_e_EFI_ADC_TOTAL_CHANNELS 49
-#define adc_channel_e_enum 0="NONE",2="Analog Inputs 1 (A1)",11="Analog Inputs 10 (C0)",14="Analog Inputs 13 (C3)",15="Analog Inputs 14 (C4)",16="Analog Inputs 15 (C5)",3="Analog Inputs 2 (A2)",4="Analog Inputs 3 (A3)",5="Analog Inputs 4 (A4)",7="Analog Inputs 6 (A6)",8="Analog Inputs 7 (A7)",10="Analog Inputs 9 (B1)",9="On-board BARO (B0)",1="On-board Battery Sense (A0)",6="On-board MAP (A5)",12="Primary On-board O2 (C1)",13="Secondary On-board O2 (C2)"
-#define adc_channel_e_fullenum "NONE","On-board Battery Sense (A0)","Analog Inputs 1 (A1)","Analog Inputs 2 (A2)","Analog Inputs 3 (A3)","Analog Inputs 4 (A4)","On-board MAP (A5)","Analog Inputs 6 (A6)","Analog Inputs 7 (A7)","On-board BARO (B0)","Analog Inputs 9 (B1)","Analog Inputs 10 (C0)","Primary On-board O2 (C1)","Secondary On-board O2 (C2)","Analog Inputs 13 (C3)","Analog Inputs 14 (C4)","Analog Inputs 15 (C5)"
+#define adc_channel_e_enum 0="NONE",2="Analog 1 (A1)",15="Analog 10 (C4)",4="Analog 2 (A3)",6="Analog 3 (A5)",7="Analog 4 (A6)",8="Analog 5 (A7)",9="Analog 6 (B0)",10="Analog 7 (B1)",11="Analog 8 (C0)",12="Analog 9 (C1)",16="BattV (C5)",13="CLT (C2)",14="IAT (C3)",5="MAP (A4)",1="Temp 1 (A0)",3="Temp 2 (A2)"
+#define adc_channel_e_fullenum "NONE","Temp 1 (A0)","Analog 1 (A1)","Temp 2 (A2)","Analog 2 (A3)","MAP (A4)","Analog 3 (A5)","Analog 4 (A6)","Analog 5 (A7)","Analog 6 (B0)","Analog 7 (B1)","Analog 8 (C0)","Analog 9 (C1)","CLT (C2)","IAT (C3)","Analog 10 (C4)","BattV (C5)"
 #define ADC_CHANNEL_NONE 0
 #define afr_sensor_s_size 20
 #define air_pressure_sensor_config_s_size 12
@@ -177,8 +177,8 @@
 #define boostType_e_auto_enum 0="OPEN_LOOP",1="CLOSED_LOOP"
 #define boostType_e_CLOSED_LOOP 1
 #define boostType_e_OPEN_LOOP 0
-#define brain_input_pin_e_enum 0="NONE",68="VR/Hall 1 (E2)",69="VR/Hall 2 (E3)",70="VR/Hall 3 (E4)"
-#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR/Hall 1 (E2)","VR/Hall 2 (E3)","VR/Hall 3 (E4)"
+#define brain_input_pin_e_enum 0="NONE",67="Cam VR (E1)",66="Crank VR (E0)",102="Digital 1 (G4)",103="Digital 2 (G5)",104="Digital 3 (G6)",105="Digital 4 (G7)",113="ETB_DIR/StepStep (G15)",111="ETB_DIS/StepDir (G13)",101="Flexfuel (G3)",106="Hall 1 (G8)",40="Hall 2 (C6)",100="Launch (G2)",56="USART-RX (D6)",55="USART-TX (D5)",81="VSS 1 VR (E15)",41="VSS 2 VR (C7)"
+#define brain_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Hall 2 (C6)","VSS 2 VR (C7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","USART-TX (D5)","USART-RX (D6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Crank VR (E0)","Cam VR (E1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS 1 VR (E15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch (G2)","Flexfuel (G3)","Digital 1 (G4)","Digital 2 (G5)","Digital 3 (G6)","Digital 4 (G7)","Hall 1 (G8)","INVALID","INVALID","INVALID","INVALID","ETB_DIS/StepDir (G13)","INVALID","ETB_DIR/StepStep (G15)"
 #define brain_pin_diag_e_PIN_DRIVER_OFF 0x20
 #define brain_pin_diag_e_PIN_DRIVER_OVERTEMP 0x10
 #define brain_pin_diag_e_PIN_OK 0
@@ -1436,8 +1436,8 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
-#define output_pin_e_enum 0="NONE",32="B14 Output"
-#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","B14 Output"
+#define output_pin_e_enum 0="NONE",92="Boost (F10)",112="ETB PWM (G14)",113="ETB_DIR/StepStep (G15)",111="ETB_DIS/StepDir (G13)",72="Fan (E6)",27="Fuel Pump (B9)",107="High 1 (G9)",108="High 2 (G10)",109="High 3 (G11)",110="High 4 (G12)",29="Idle 1 (B11)",69="Idle 2 (E3)",58="Ignition 1 (D8)",59="Ignition 2 (D9)",60="Ignition 3 (D10)",61="Ignition 4 (D11)",82="Ignition 5 (F0)",83="Ignition 6 (F1)",84="Ignition 7 (F2)",85="Ignition 8 (F3)",73="Injector 1 (E7)",74="Injector 2 (E8)",75="Injector 3 (E9)",76="Injector 4 (E10)",77="Injector 5 (E11)",78="Injector 6 (E12)",79="Injector 7 (E13)",80="Injector 8 (D13)",71="Spare 1 (E5)",57="Spare 2 (D7)",68="Spare 3 (E2)",47="Tach (C13)",56="USART-RX (D6)",55="USART-TX (D5)",53="VVT 1 (D3)",54="VVT 2 (D4)"
+#define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Fuel Pump (B9)","INVALID","Idle 1 (B11)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Tach (C13)","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 1 (D3)","VVT 2 (D4)","USART-TX (D5)","USART-RX (D6)","Spare 2 (D7)","Ignition 1 (D8)","Ignition 2 (D9)","Ignition 3 (D10)","Ignition 4 (D11)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Spare 3 (E2)","Idle 2 (E3)","INVALID","Spare 1 (E5)","Fan (E6)","Injector 1 (E7)","Injector 2 (E8)","Injector 3 (E9)","Injector 4 (E10)","Injector 5 (E11)","Injector 6 (E12)","Injector 7 (E13)","Injector 8 (D13)","INVALID","Ignition 5 (F0)","Ignition 6 (F1)","Ignition 7 (F2)","Ignition 8 (F3)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (F10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","High 1 (G9)","High 2 (G10)","High 3 (G11)","High 4 (G12)","ETB_DIS/StepDir (G13)","ETB PWM (G14)","ETB_DIR/StepStep (G15)"
 #define PACK_ADD_TEMPERATURE 40
 #define PACK_MULT_AFR 1000
 #define PACK_MULT_AFR_CFG 10
@@ -1544,7 +1544,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3555793974
+#define SIGNATURE_HASH 3479071726
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1578,8 +1578,8 @@
 #define stft_state_e_stftDisabledTpsAccel 8
 #define stft_state_e_stftDisabledTuning 2
 #define stft_state_e_stftEnabled 0
-#define switch_input_pin_e_enum 0="NONE",68="VR/Hall 1 (E2)",69="VR/Hall 2 (E3)",70="VR/Hall 3 (E4)"
-#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VR/Hall 1 (E2)","VR/Hall 2 (E3)","VR/Hall 3 (E4)"
+#define switch_input_pin_e_enum 0="NONE",67="Cam VR (E1)",66="Crank VR (E0)",102="Digital 1 (G4)",103="Digital 2 (G5)",104="Digital 3 (G6)",105="Digital 4 (G7)",113="ETB_DIR/StepStep (G15)",111="ETB_DIS/StepDir (G13)",101="Flexfuel (G3)",106="Hall 1 (G8)",40="Hall 2 (C6)",100="Launch (G2)",56="USART-RX (D6)",55="USART-TX (D5)",81="VSS 1 VR (E15)",41="VSS 2 VR (C7)"
+#define switch_input_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Hall 2 (C6)","VSS 2 VR (C7)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","USART-TX (D5)","USART-RX (D6)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Crank VR (E0)","Cam VR (E1)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","VSS 1 VR (E15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Launch (G2)","Flexfuel (G3)","Digital 1 (G4)","Digital 2 (G5)","Digital 3 (G6)","Digital 4 (G7)","Hall 1 (G8)","INVALID","INVALID","INVALID","INVALID","ETB_DIS/StepDir (G13)","INVALID","ETB_DIR/StepStep (G15)"
 #define TABLE_2_LOAD_SIZE 8
 #define TABLE_2_RPM_SIZE 8
 #define TABLE_3_LOAD_SIZE 8
@@ -2135,7 +2135,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.12.12.xyz.3555793974"
+#define TS_SIGNATURE "rusEFI main.2025.12.12.xyz.3479071726"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
