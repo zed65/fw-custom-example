@@ -290,11 +290,11 @@
 #define CanGpioType_NONE 0
 #define canReWidebandHwIndex_enum "Idx 0", "Idx 1", "Idx 2", "Idx 3", "Idx 4", "Idx 5", "Idx 6", "Idx 7", "INVALID", "INVALID", "INVALID", "INVALID", "INVALID", "INVALID", "INVALID", "INVALID"
 #define CLT_CRANKING_CURVE_SIZE 8
-#define CLT_CRANKING_TAPER_CURVE_SIZE 6
-#define CLT_CURVE_SIZE 16
-#define CLT_FUEL_CURVE_SIZE 16
-#define CLT_IDLE_TABLE_CLT_SIZE 8
-#define CLT_IDLE_TABLE_RPM_SIZE 2
+#define CLT_CRANKING_TAPER_CURVE_SIZE 5
+#define CLT_CURVE_SIZE 8
+#define CLT_FUEL_CURVE_SIZE 8
+#define CLT_IDLE_TABLE_CLT_SIZE 6
+#define CLT_IDLE_TABLE_RPM_SIZE 4
 #define CLT_LIMITER_CURVE_SIZE 4
 #define CLT_TIMING_LOAD_AXIS_SIZE 5
 #define CLT_TIMING_TEMP_AXIS_SIZE 5
@@ -359,7 +359,7 @@
 #define cranking_condition_e_CC_CLUTCH 2
 #define cranking_condition_e_CCNONE 0
 #define cranking_condition_e_enum "None", "Brake", "Clutch"
-#define CRANKING_CURVE_SIZE 8
+#define CRANKING_CURVE_SIZE 5
 #define CRANKING_CYCLE_CLT_SIZE 4
 #define CRANKING_ENRICH_CLT_COUNT 6
 #define CRANKING_ENRICH_COUNT 6
@@ -442,7 +442,7 @@
 #define display_mode_e_DM_HD44780 1
 #define display_mode_e_DM_HD44780_OVER_PCF8574 2
 #define display_mode_e_DM_NONE 0
-#define DWELL_CURVE_SIZE 8
+#define DWELL_CURVE_SIZE 5
 #define DYNO_CAR_CAR_MASS_TOOLTIP "Full car mass"
 #define DYNO_CAR_CAR_MASS_UNITS "Kg"
 #define DYNO_CAR_CARGO_MASS_TOOLTIP "Mass of passengers and cargo"
@@ -502,7 +502,7 @@
 #define ENGINE_MAKE_SUBARU "Subaru"
 #define ENGINE_MAKE_TOYOTA "Toyota"
 #define ENGINE_MAKE_VAG "VAG"
-#define ENGINE_NOISE_CURVE_SIZE 16
+#define ENGINE_NOISE_CURVE_SIZE 8
 #define ENGINE_SNIFFER_UNIT_US 10
 #define engine_type_e_auto_enum 0="DEFAULT_FRANKENSO",22="BMW_M52",50="BMW_M73_MRE",51="BMW_M73_MRE_SLAVE",38="DISCOVERY_PDM",2="DODGE_NEON_1995",46="DODGE_NEON_2003_CRANK",64="DODGE_RAM",61="EEPROM_BENCH_ENGINE",58="ETB_BENCH_ENGINE",21="ET_BOSCH_QUICK_START",24="ET_TEST_WITH_BOSCH_QUICK_START",3="FORD_ASPIRE_1996",11="FORD_COYOTE",67="FORD_ECOBOOST",14="FORD_ESCORT_GT",7="FORD_INLINE_6_1995",40="FRANKENSO_BMW_M73_F",41="FRANKENSO_MIATA_NA6_MAP",59="FRANKENSO_TEST_33810",15="FUEL_BENCH",47="GM_LCV",65="GM_LNF",55="GM_LTG",98="GM_SBC",27="GM_SBC_GEN4",49="GM_SBC_GEN5",8="GY6_139QMB",6="HARLEY",84="HELLEN_121_NISSAN_4_CYL",72="HELLEN_121_NISSAN_6_CYL",85="HELLEN_121_NISSAN_8_CYL",87="HELLEN_121_NISSAN_ALMERA_N16",71="HELLEN_121_VAG_4_CYL",81="HELLEN_121_VAG_8_CYL",78="HELLEN_121_VAG_V6_CYL",79="HELLEN_121_VAG_VR6_CYL",36="HELLEN_128_MERCEDES_4_CYL",88="HELLEN_128_MERCEDES_6_CYL",89="HELLEN_128_MERCEDES_8_CYL",82="HELLEN_154_HYUNDAI_COUPE_BK1",95="HELLEN_154_HYUNDAI_COUPE_BK2",76="HELLEN_154_VAG",75="HELLEN_2CHAN_STIM_QC",74="HELLEN_4CHAN_STIM_QC",57="HELLEN_HONDA_BCM",43="HONDA_600",90="HONDA_K",66="HONDA_OBD1",91="HONDA_OBD2A",104="HYUNDAI_PB",60="L9779_BENCH_ENGINE",54="MAVERICK_X3",34="MAZDA_MIATA_NA6",80="MAZDA_MIATA_NA94",10="MAZDA_MIATA_NA96",83="MAZDA_MIATA_NB1",69="MAZDA_MIATA_NB2",86="MAZDA_MIATA_NB2_36",20="MAZDA_MIATA_NC",33="ME17_9_MISC",68="MERCEDES_M111",1="MIATA_PROTEUS_TCU",99="MINIMAL_PINS",12="MITSUBISHI_3A92",23="MRE_BODY_CONTROL",4="MRE_SECONDARY_CAN",37="MRE_SUBARU_EJ18",62="MRE_VW_B6",35="POLARIS",9="POLARIS_RZR",30="PROTEUS_ANALOG_PWM_TEST",63="PROTEUS_BMW_M73",25="PROTEUS_LUA_DEMO",103="PROTEUS_NISSAN_VQ35",73="PROTEUS_STIM_QC",39="PROTEUS_VW_B6",29="SACHS",92="SIMULATOR_CONFIG",56="SUBARU_2011",70="SUBARU_EG33",17="TCU_4R70W",100="TEST_100",101="TEST_101",18="TEST_33816",28="TEST_CRANK_ENGINE",48="TEST_DC_WASTEGATE_DISCOVERY",26="TEST_ENGINE",45="TEST_ENGINE_VVT",52="TEST_ISSUE_366_BOTH",53="TEST_ISSUE_366_RISE",93="TEST_ISSUE_6451",19="TEST_ROTARY",13="TOYOTA_1NZ_FE",44="TOYOTA_2JZ_GTE_VVTi",102="UNUSED102",31="UNUSED31",42="UNUSED42",94="UNUSED94",105="UNUSED_105",16="UNUSED_16",5="UNUSED_5",97="UNUSED_97",77="VAG_5_CYL",32="VW_ABA",96="WASTEGATE_PROTEUS_TEST"
 #define engine_type_e_BMW_M52 22
@@ -1274,10 +1274,10 @@
 #define HW_EVENT_TYPES 4
 #define IAC_PID_MULT_RPM_SIZE 8
 #define IAC_PID_MULT_SIZE 8
-#define IAT_CURVE_SIZE 16
-#define IAT_IGN_CORR_COUNT 8
+#define IAT_CURVE_SIZE 6
+#define IAT_IGN_CORR_COUNT 6
 #define IAT_IGN_CORR_LOAD_COUNT 8
-#define IDLE_ADVANCE_CURVE_SIZE 8
+#define IDLE_ADVANCE_CURVE_SIZE 6
 #define idle_hardware_s_size 12
 #define idle_mode_e_auto_enum 0="IM_AUTO",1="IM_MANUAL"
 #define idle_mode_e_IM_AUTO 0
@@ -1291,12 +1291,12 @@
 #define IDLE_VE_SIZE 4
 #define IDLE_VE_SIZE_RPM 4
 #define IGN_BLEND_COUNT 4
-#define ign_cyl_trim_s_size 64
+#define ign_cyl_trim_s_size 16
 #define IGN_LOAD_COUNT 16
 #define IGN_RPM_COUNT 16
 #define IGN_TRIM_1_NAME "Ignition trim cyl 1"
 #define IGN_TRIM_2_NAME "Ignition trim cyl 2"
-#define IGN_TRIM_SIZE 8
+#define IGN_TRIM_SIZE 4
 #define IGNITION_ADVANCE_MENU_NAME "Ignition advance"
 #define IGNITION_ADVANCE_TABLE_NAME "Ignition Table"
 #define ignition_mode_e_auto_enum 0="IM_ONE_COIL",1="IM_INDIVIDUAL_COILS",3="IM_TWO_COILS",2="IM_WASTED_SPARK"
@@ -1316,8 +1316,8 @@
 #define INDICATOR_NAME_BRAKE_DOWN "Brake switch"
 #define INDICATOR_NAME_CLUTCH_DOWN "Clutch: down"
 #define INDICATOR_NAME_CLUTCH_UP "Clutch: up"
-#define INJ_PHASE_LOAD_COUNT 16
-#define INJ_PHASE_RPM_COUNT 16
+#define INJ_PHASE_LOAD_COUNT 6
+#define INJ_PHASE_RPM_COUNT 6
 #define INJ_STAGING_COUNT 6
 #define INJ_STAGING_RPM_SIZE 6
 #define injection_mode_e_auto_enum 0="IM_SIMULTANEOUS",2="IM_BATCH",1="IM_SEQUENTIAL",3="IM_SINGLE_POINT"
@@ -1392,8 +1392,8 @@
 #define MAF_DECODING_COUNT 32
 #define MAIN_HELP_URL "http://www.rusefi.com/"
 #define MAP_ANGLE_SIZE 8
-#define MAP_EST_LOAD_COUNT 16
-#define MAP_EST_RPM_COUNT 16
+#define MAP_EST_LOAD_COUNT 12
+#define MAP_EST_RPM_COUNT 12
 #define MAP_sensor_config_s_size 140
 #define MAP_UPPER_LIMIT 650
 #define MAP_WINDOW_SIZE 8
@@ -1464,7 +1464,7 @@
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 24408
+#define persistent_config_s_size 22732
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_PI_DEFAULT 0
@@ -1544,7 +1544,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 3479071726
+#define SIGNATURE_HASH 3003614376
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1623,7 +1623,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 24408
+#define TOTAL_CONFIG_SIZE 22732
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -1923,23 +1923,23 @@
 #define ts_show_can_wbo_type true
 #define ts_show_can_weird true
 #define ts_show_charge_estimation true
-#define ts_show_check_engine false
+#define ts_show_check_engine true
 #define ts_show_clt true
 #define ts_show_clt_iat_pullup true
 #define ts_show_clutch_down true
 #define ts_show_clutch_down_pin true
 #define ts_show_clutch_up true
 #define ts_show_clutch_up_pin true
-#define ts_show_communityCommsLedPin false
+#define ts_show_communityCommsLedPin true
 #define ts_show_complexWallModel true
 #define ts_show_compression_ratio false
 #define ts_show_compressor_sensor true
 #define ts_show_console_settings true
 #define ts_show_cranking_rpm true
 #define ts_show_crankingTpsCurve true
-#define ts_show_cylinder_10 true
-#define ts_show_cylinder_11 true
-#define ts_show_cylinder_12 true
+#define ts_show_cylinder_10 false
+#define ts_show_cylinder_11 false
+#define ts_show_cylinder_12 false
 #define ts_show_cylinder_2 true
 #define ts_show_cylinder_3 true
 #define ts_show_cylinder_4 true
@@ -1947,7 +1947,7 @@
 #define ts_show_cylinder_6 true
 #define ts_show_cylinder_7 true
 #define ts_show_cylinder_8 true
-#define ts_show_cylinder_9 true
+#define ts_show_cylinder_9 false
 #define ts_show_cylinder_bank true
 #define ts_show_cylinder_trim_1 true
 #define ts_show_cylinder_trim_2 true
@@ -1967,11 +1967,12 @@
 #define ts_show_etb_min_max true
 #define ts_show_etb_pid true
 #define ts_show_etb_pid_autotune true
-#define ts_show_etb_pins false
+#define ts_show_etb_pins true
 #define ts_show_exhaust_vvt true
 #define ts_show_experimental true
 #define ts_show_fan2_settings true
 #define ts_show_fan_settings true
+#define ts_show_fancy_hardware false
 #define ts_show_faster_spin_up true
 #define ts_show_final_ratio true
 #define ts_show_firing_order true
@@ -1989,9 +1990,9 @@
 #define ts_show_fuel_temp_sensor true
 #define ts_show_fuel_threshold true
 #define ts_show_fuel_trim_cylinder_1 true
-#define ts_show_fuel_trim_cylinder_10 true
-#define ts_show_fuel_trim_cylinder_11 true
-#define ts_show_fuel_trim_cylinder_12 true
+#define ts_show_fuel_trim_cylinder_10 false
+#define ts_show_fuel_trim_cylinder_11 false
+#define ts_show_fuel_trim_cylinder_12 false
 #define ts_show_fuel_trim_cylinder_2 true
 #define ts_show_fuel_trim_cylinder_3 true
 #define ts_show_fuel_trim_cylinder_4 true
@@ -1999,7 +2000,7 @@
 #define ts_show_fuel_trim_cylinder_6 true
 #define ts_show_fuel_trim_cylinder_7 true
 #define ts_show_fuel_trim_cylinder_8 true
-#define ts_show_fuel_trim_cylinder_9 true
+#define ts_show_fuel_trim_cylinder_9 false
 #define ts_show_fuel_trims true
 #define ts_show_full_pinout true
 #define ts_show_gasoline_scale true
@@ -2016,9 +2017,9 @@
 #define ts_show_gppwm_2 true
 #define ts_show_gppwm_3 true
 #define ts_show_gppwm_4 true
-#define ts_show_hardware_simulator true
+#define ts_show_hardware_simulator false
 #define ts_show_hbridge_function true
-#define ts_show_hd true
+#define ts_show_hd false
 #define ts_show_iat true
 #define ts_show_idle_hardware true
 #define ts_show_ign_key_analog_input false
@@ -2060,7 +2061,7 @@
 #define ts_show_oil_pressure_sensor true
 #define ts_show_oil_sensors true
 #define ts_show_oil_temp_sensor true
-#define ts_show_onboard_accelerometer false
+#define ts_show_onboard_accelerometer true
 #define ts_show_output_diag false
 #define ts_show_popular_vehicles true
 #define ts_show_primary_trigger true
@@ -2071,7 +2072,7 @@
 #define ts_show_sd_pins true
 #define ts_show_second_bank true
 #define ts_show_sent true
-#define ts_show_software_knock false
+#define ts_show_software_knock true
 #define ts_show_sparkHardwareLatencyCorrection true
 #define ts_show_speedo_settings true
 #define ts_show_spi true
@@ -2135,7 +2136,7 @@
 #define ts_show_wastegate_sensor true
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
-#define TS_SIGNATURE "rusEFI main.2025.12.12.ruszed.3479071726"
+#define TS_SIGNATURE "rusEFI main.2025.12.12.ruszed.3003614376"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
