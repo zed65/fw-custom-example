@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <msq xmlns="http://www.msefi.com/:msq">
     <page/>
-    <page number="0" size="22736">
+    <page number="0" size="22768">
         <constant name="accelEnrichmentMode">"MS Adder"</constant>
         <constant name="accelerometerCsPin">"NONE"</constant>
         <constant name="accelerometerCsPinMode">"default"</constant>
@@ -559,7 +559,7 @@
         <constant name="brakePedalPin">"NONE"</constant>
         <constant name="brakePedalPinMode">"PULLUP"</constant>
         <constant digits="0" name="byFirmwareVersion" units="index">0.0</constant>
-        <constant digits="0" name="calibrationBirthday" units="">2.0260107E7</constant>
+        <constant digits="0" name="calibrationBirthday" units="">2.0260108E7</constant>
         <constant digits="0" name="camDecoder2jzPosition" units="angle">95.0</constant>
         <constant digits="0" name="camDecoder2jzPrecision" units="">40.0</constant>
         <constant name="camInputs1">"NONE"</constant>
@@ -1942,22 +1942,24 @@
          120.0
          140.0
 </constant>
-        <constant cols="6" digits="1" name="ignitionIatCorrTable" rows="8" units="deg">
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
-         0.0 0.0 0.0 0.0 0.0 0.0
+        <constant cols="8" digits="1" name="ignitionIatCorrTable" rows="8" units="deg">
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 -1.0 -2.0 -3.0
+         0.0 0.0 0.0 0.0 0.0 0.0 -1.0 -2.0
 </constant>
-        <constant cols="1" digits="0" name="ignitionIatCorrTempBins" rows="6" units="C">
+        <constant cols="1" digits="0" name="ignitionIatCorrTempBins" rows="8" units="C">
          -40.0
-         -20.0
          0.0
+         10.0
          20.0
+         30.0
          40.0
+         50.0
          60.0
 </constant>
         <constant name="ignitionKeyDigitalPin">"NONE"</constant>
@@ -4831,7 +4833,7 @@ end</constant>
 </constant>
         <constant name="yesUnderstandLocking">"no"</constant>
     </page>
-    <versionInfo firmwareInfo="20260101" nPages="1" signature="rusEFI main.2026.01.07.ruszed.3435387992" version="5.0"/>
+    <versionInfo firmwareInfo="20260101" nPages="1" signature="rusEFI main.2026.01.08.ruszed.1069427856" version="5.0"/>
     <bibliography author="rusEFI 20260101" writeDate="date"/>
     <settings/>
     <userComments/>
