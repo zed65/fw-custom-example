@@ -3,4 +3,4 @@
 //
 
 #define SIGNATURE_HASH 1495551886
-#define TS_SIGNATURE "rusEFI main.2026.06.13.ruszed.1495551886"
+#define TS_SIGNATURE "rusEFI main.2026.06.14.ruszed.1495551886"
