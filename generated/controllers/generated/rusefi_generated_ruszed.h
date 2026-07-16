@@ -340,6 +340,7 @@
 #define CMD_INJECTION "injection"
 #define CMD_INJECTION_PIN "set_injection_pin"
 #define CMD_LOGIC_PIN "set_logic_input_pin"
+#define CMD_LUA_RESET "luareset"
 #define CMD_MIL_BENCH "milbench"
 #define CMD_PINS "pins"
 #define CMD_PWM "pwm"
@@ -500,7 +501,7 @@
 #define ego_sensor_e_ES_PLX 4
 #define egoSettings_NAME "CAN O2 sensors"
 #define EGT_CHANNEL_COUNT 8
-#define engine_configuration_s_size 4252
+#define engine_configuration_s_size 4248
 #define engine_load_mode_e_auto_enum 0="LM_SPEED_DENSITY",2="LM_ALPHA_N",3="LM_LUA",1="LM_REAL_MAF",4="UNSUPPORTED_ENUM_VALUE"
 #define engine_load_mode_e_LM_ALPHA_N 2
 #define engine_load_mode_e_LM_LUA 3
@@ -640,7 +641,7 @@
 #define FIELD_DISPLACEMENT displacement
 #define FIELD_INJECTOR_FLOW injector.flow
 #define firing_order_e_enum "One Cylinder", "1-3-4-2", "1-2-4-3", "1-3-2-4", "1-5-3-6-2-4", "1-8-4-3-6-5-7-2", "1-2-4-5-3", "1-4-2-5-3-6", "1-2", "1-2-3-4-5-6", "1-2-3", "1-8-7-2-6-5-4-3", "1-5-4-2-6-3-7-8 Mustang", "1-6-3-2-5-4", "1-10-9-4-3-6-5-8-7_2", "1-7-5-11-3-9-6-12-2-8-4-10", "1-7-4-10-2-8-6-12-3-9-5-11", "1-4-3-2", "1-12-5-8-3-10-6-7-2-11-4-9", "1-2-7-8-4-5-6-3", "1-3-7-2-6-5-4-8 HO", "1-2-3-4-5-6-7-8-9", "INVALID", "1-2-3-4-5-6-7-8-9-10-11-12", "1-3-2", "1-2-3-4-5-6-7-8", "1-5-4-8-6-3-7-2", "1-4-3-6-2-5", "1-8-7-3-6-5-4-2", "1-6-2-4-3-5", "1-6-5-4-3-2", "1-4-5-2-3-6", "1-5-4-8-3-7-2-6 Voodoo", "1-6-5-10-2-7-3-8-4-9", "1-8-6-2-7-3-4-5 F136", "1-2-3-4"
-#define FLASH_DATA_VERSION 260529
+#define FLASH_DATA_VERSION 260714
 #define FLEX_TRANSIENT_CLT_SIZE 8
 #define FLEX_TRANSIENT_ETH_SIZE 8
 #define FLOW_LINEARIZATION_MASS_SIZE 2
@@ -1481,6 +1482,9 @@
 #define operation_mode_e_FOUR_STROKE_TWELVE_TIMES_CRANK_SENSOR 6
 #define operation_mode_e_OM_NONE 0
 #define operation_mode_e_TWO_STROKE 3
+#define OUTPUT_CHANNEL_SD_LOGGING_INTERNAL "sd_logging_internal"
+#define OUTPUT_CHANNEL_SD_MSD "sd_msd"
+#define OUTPUT_CHANNEL_SD_PRESENT "sd_present"
 #define output_pin_e_enum 0="NONE",92="Boost (F10)",112="ETB PWM (G14)",113="ETB_DIR/StepStep (G15)",111="ETB_DIS/StepDir (G13)",72="Fan (E6)",27="Fuel Pump (B9)",107="High 1 (G9)",108="High 2 (G10)",109="High 3 (G11)",110="High 4 (G12)",29="Idle 1 (B11)",69="Idle 2 (E3)",58="Ignition 1 (D8)",59="Ignition 2 (D9)",60="Ignition 3 (D10)",61="Ignition 4 (D11)",82="Ignition 5 (F0)",83="Ignition 6 (F1)",84="Ignition 7 (F2)",85="Ignition 8 (F3)",73="Injector 1 (E7)",74="Injector 2 (E8)",75="Injector 3 (E9)",76="Injector 4 (E10)",77="Injector 5 (E11)",78="Injector 6 (E12)",79="Injector 7 (E13)",80="Injector 8 (D13)",71="Spare 1 (E5)",57="Spare 2 (D7)",68="Spare 3 (E2)",47="Tach (C13)",56="USART-RX (D6)",55="USART-TX (D5)",53="VVT 1 (D3)",54="VVT 2 (D4)"
 #define output_pin_e_fullenum "NONE","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Fuel Pump (B9)","INVALID","Idle 1 (B11)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Tach (C13)","INVALID","INVALID","INVALID","INVALID","INVALID","VVT 1 (D3)","VVT 2 (D4)","USART-TX (D5)","USART-RX (D6)","Spare 2 (D7)","Ignition 1 (D8)","Ignition 2 (D9)","Ignition 3 (D10)","Ignition 4 (D11)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Spare 3 (E2)","Idle 2 (E3)","INVALID","Spare 1 (E5)","Fan (E6)","Injector 1 (E7)","Injector 2 (E8)","Injector 3 (E9)","Injector 4 (E10)","Injector 5 (E11)","Injector 6 (E12)","Injector 7 (E13)","Injector 8 (D13)","INVALID","Ignition 5 (F0)","Ignition 6 (F1)","Ignition 7 (F2)","Ignition 8 (F3)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","Boost (F10)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","High 1 (G9)","High 2 (G10)","High 3 (G11)","High 4 (G12)","ETB_DIS/StepDir (G13)","ETB PWM (G14)","ETB_DIR/StepStep (G15)","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID","INVALID"
 #define PACK_ADD_TEMPERATURE 40
@@ -1512,7 +1516,7 @@
 #define pedalSensor_NAME "Accelerator pedal"
 #define pedalToTpsTbl_NAME "ETB pedal target"
 #define PERCENT_TRIM_BYTE_PACKING_DIV 0.02
-#define persistent_config_s_size 15680
+#define persistent_config_s_size 15676
 #define pid_s_size 20
 #define pin_input_mode_e_auto_enum 0="PI_DEFAULT",4="PI_INVERTED_DEFAULT",6="PI_INVERTED_PULLDOWN",5="PI_INVERTED_PULLUP",2="PI_PULLDOWN",1="PI_PULLUP"
 #define pin_input_mode_e_PI_DEFAULT 0
@@ -1624,7 +1628,7 @@
 #define SentInput_NONE 0
 #define show_tcu_gauges false
 #define show_vvt_output_pin true
-#define SIGNATURE_HASH 2974682993
+#define SIGNATURE_HASH 2199363975
 #define SIMULATOR_TUNE_BIN_FILE_NAME "generated/simulator_tune_image.bin"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_PREFIX "generated/simulator_tune_image"
 #define SIMULATOR_TUNE_BIN_FILE_NAME_SUFFIX ".bin"
@@ -1706,7 +1710,7 @@
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_BUTTON 0
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_DOWN_SWITCH 2
 #define torqueReductionActivationMode_e_TORQUE_REDUCTION_CLUTCH_UP_SWITCH 3
-#define TOTAL_CONFIG_SIZE 15680
+#define TOTAL_CONFIG_SIZE 15676
 #define TPS_2_BYTE_PACKING_MULT 100
 #define TPS_PPS_TOO_HIGH_THRESHOLD 110
 #define TPS_PPS_TOO_LOW_THRESHOLD -10
@@ -1977,7 +1981,7 @@
 #define TS_PAGE_CRC_CHECK "k%2i%2o%2c", "k%2i%2o%2c", "k%2i%2o%2c", "k%2i%2o%2c", "k%2i%2o%2c"
 #define TS_PAGE_IDENTIFIERS "\x00\x00", "\x00\x01", "\x00\x02", "\x00\x03", "\x00\x04"
 #define TS_PAGE_READ_COMMANDS "R%2i%2o%2c", "R%2i%2o%2c", "R%2i%2o%2c", "R%2i%2o%2c", "R%2i%2o%2c"
-#define TS_PAGE_SIZES 15680, 256, 2048, 1268, 8000
+#define TS_PAGE_SIZES 15676, 256, 2048, 1268, 8000
 #define TS_PAGE_VALUE_WRITE "C%2i%2o%2c%v", "C%2i%2o%2c%v", "C%2i%2o%2c%v", "C%2i%2o%2c%v", "C%2i%2o%2c%v"
 #define TS_PERF_TRACE_BEGIN '_'
 #define TS_PERF_TRACE_BEGIN_char _
@@ -2262,7 +2266,7 @@
 #define ts_show_wbo_canbus_index true
 #define ts_show_wbo_canbus_set_index true
 #define ts_show_wbo_canbus_set_type false
-#define TS_SIGNATURE "rusEFI main.2026.07.15.ruszed.2974682993"
+#define TS_SIGNATURE "rusEFI main.2026.07.16.ruszed.2199363975"
 #define TS_SIMULATE_CAN '>'
 #define TS_SIMULATE_CAN_char >
 #define TS_TEST_COMMAND 't'
