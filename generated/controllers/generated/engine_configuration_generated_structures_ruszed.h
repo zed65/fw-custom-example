@@ -8129,13 +8129,13 @@ struct persistent_config_s {
 	float iatBoostAdder[BOOST_CURVE_SIZE] = {};
 	/**
 	 * "Minimum Battery Voltage"
-	 * units: #
+	 * units: V
 	 * offset 14620
 	 */
 	scaled_channel<uint8_t, 10, 1> cel_battery_min_v;
 	/**
 	 * "Maximum Battery Voltage"
-	 * units: #
+	 * units: V
 	 * offset 14621
 	 */
 	scaled_channel<uint8_t, 10, 1> cel_battery_max_v;
