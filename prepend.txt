@@ -5,6 +5,21 @@
 ! example of table size override
 #define IGN_TRIM_SIZE 8
 
+//Comms
+#define ts_show_spi true
+#define ts_show_can2 true
+#define ts_show_spi2_enable true
+#define ts_show_spi2_pins true
+
+//More than 8 cyl
+#define ts_show_fuel_trim_cylinder_10 false
+#define ts_show_fuel_trim_cylinder_11 false
+#define ts_show_fuel_trim_cylinder_12 false
+#define ts_show_fuel_trim_cylinder_9 false
+#define ts_show_cylinder_10 false
+#define ts_show_cylinder_11 false
+#define ts_show_cylinder_12 false
+#define ts_show_cylinder_9 false
 
 //Table size
 #define MAP_EST_RPM_COUNT 12
