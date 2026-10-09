@@ -6,13 +6,6 @@
 #define ts_show_onboard_accelerometer true
 #define ts_show_egt true
 
-//Functions not shown
-#define ts_show_hardware_simulator false
-#define ts_show_tcu false
-#define ts_show_gdi false
-#define ts_show_fancy_hardware false
-#define ts_show_hd false
-
 //Comms
 #define ts_show_spi true
 #define ts_show_can2 true
