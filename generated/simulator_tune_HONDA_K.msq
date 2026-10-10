@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="yes"?>
 <msq xmlns="http://www.msefi.com/:msq">
     <page/>
-    <page number="0" size="15732">
+    <page number="0" size="15796">
         <constant name="accelEnrichmentMode">"MS Adder"</constant>
         <constant name="accelerometerCsPin">"NONE"</constant>
         <constant name="accelerometerCsPinMode">"default"</constant>
@@ -668,7 +668,15 @@
          80.0
          100.0
 </constant>
-        <constant cols="1" digits="2" name="cltFuelCorr" rows="8" units="ratio">
+        <constant cols="1" digits="2" name="cltFuelCorr" rows="16" units="ratio">
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
          0.0
          0.0
          0.0
@@ -678,7 +686,15 @@
          0.0
          0.0
 </constant>
-        <constant cols="1" digits="2" name="cltFuelCorrBins" rows="8" units="{bitStringValue(unitsLabels, useMetricOnInterface)}">
+        <constant cols="1" digits="2" name="cltFuelCorrBins" rows="16" units="{bitStringValue(unitsLabels, useMetricOnInterface)}">
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
+         0.0
          0.0
          0.0
          0.0
@@ -5031,7 +5047,15 @@
         <constant digits="0" name="wizardPanelToShow" units="">0</constant>
         <constant name="wizardTps">"no"</constant>
         <constant name="wizardVeTable">"no"</constant>
-        <constant cols="1" digits="0" name="wueAnalyzeCltFuelCorr" rows="8" units="%">
+        <constant cols="1" digits="0" name="wueAnalyzeCltFuelCorr" rows="16" units="%">
+         0
+         0
+         0
+         0
+         0
+         0
+         0
+         0
          0
          0
          0
@@ -5123,7 +5147,7 @@
 </constant>
         <constant name="yesUnderstandLocking">"no"</constant>
     </page>
-    <versionInfo firmwareInfo="20261009" nPages="1" signature="rusEFI main.2026.10.10.xyz.4221196712" version="5.0"/>
+    <versionInfo firmwareInfo="20261009" nPages="1" signature="rusEFI main.2026.10.10.xyz.160859534" version="5.0"/>
     <bibliography author="rusEFI 20261009" writeDate="date"/>
     <settings/>
     <userComments/>
