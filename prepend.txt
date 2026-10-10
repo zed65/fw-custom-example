@@ -1,3 +1,11 @@
+//Functions shown
+#define ts_show_etb_pins true
+#define ts_show_software_knock true
+#define ts_show_check_engine true
+#define ts_show_communityCommsLedPin true
+#define ts_show_onboard_accelerometer true
+#define ts_show_egt true
+
 //Functions not shown
 #define ts_show_hardware_simulator false
 #define ts_show_tcu false
