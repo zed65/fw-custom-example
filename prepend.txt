@@ -1,4 +1,9 @@
-
+//Functions not shown
+#define ts_show_hardware_simulator false
+#define ts_show_tcu false
+#define ts_show_gdi false
+#define ts_show_fancy_hardware false
+#define ts_show_hd false
 
 //Comms
 #define ts_show_spi true
@@ -22,7 +27,7 @@
 #define INJ_PHASE_RPM_COUNT 6
 #define INJ_PHASE_LOAD_COUNT 6
 #define CLT_CURVE_SIZE 8
-//#define CLT_FUEL_CURVE_SIZE 8
+#define CLT_FUEL_CURVE_SIZE 8
 #define CLT_CRANKING_CURVE_SIZE 8
 #define CLT_CRANKING_TAPER_CURVE_SIZE 5
 #define CLT_IDLE_TABLE_CLT_SIZE 6
