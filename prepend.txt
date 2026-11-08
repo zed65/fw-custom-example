@@ -1,1 +1,30 @@
 
+//Functions shown
+#define ts_show_etb_pins true
+#define ts_show_software_knock true
+#define ts_show_check_engine true
+#define ts_show_onboard_accelerometer true
+#define ts_show_egt true
+
+//Functions not shown
+#define ts_show_hardware_simulator false
+#define ts_show_tcu false
+#define ts_show_gdi false
+#define ts_show_fancy_hardware false
+#define ts_show_hd false
+
+//Comms
+#define ts_show_spi true
+#define ts_show_can2 true
+#define ts_show_spi2_enable true
+#define ts_show_spi2_pins true
+
+//More than 8 cyl
+#define ts_show_fuel_trim_cylinder_10 false
+#define ts_show_fuel_trim_cylinder_11 false
+#define ts_show_fuel_trim_cylinder_12 false
+#define ts_show_fuel_trim_cylinder_9 false
+#define ts_show_cylinder_10 false
+#define ts_show_cylinder_11 false
+#define ts_show_cylinder_12 false
+#define ts_show_cylinder_9 false
