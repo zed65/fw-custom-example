@@ -1,5 +1,7 @@
 #include "pch.h"
-//#include "board_overrides.h"
+#include "board_overrides.h"
+
+void setupBoardHardwareTestOverrides();
 
 Gpio getCommsLedPin() {
 	return Gpio::F15;
