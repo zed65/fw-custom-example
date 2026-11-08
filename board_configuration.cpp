@@ -46,4 +46,6 @@ void setCustomVbatt() {
 	engineConfiguration->vbattAdcChannel = EFI_ADC_15;
 
 }
-
+void setup_custom_board_overrides() {
+    custom_board_DefaultConfiguration = customBoardDefaultConfiguration;
+}
